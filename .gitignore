@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Regras de Segurança do Satélite ---
+# Ignorar vídeos e imagens de teste (Privacidade)
+*.mp4
+*.avi
+*.jpg
+*.png
+/dataset/
+
+# Ignorar banco de dados local
+*.sqlite
+*.db
+
+# Ignorar pesos dos modelos locais (Tamanho muito grande)
+*.pt
+*.onnx
