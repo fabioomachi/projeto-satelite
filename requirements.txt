@@ -1,0 +1,4 @@
+# Projeto Satélite — dependências Fase 1 (módulo Lentes)
+opencv-python-headless>=4.8.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
